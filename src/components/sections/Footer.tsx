@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <div className="relative w-12 h-12 bg-white rounded-lg overflow-hidden flex items-center justify-center p-1">
-                <img src="/api/logo" alt="Varnaya EXIM Logo" className="object-contain w-full h-full" />
+                <Image src="/logo.png" alt="Varnaya EXIM Logo" fill className="object-contain" />
               </div>
               <span className="font-heading font-bold text-xl text-white tracking-wide">
                 VARNAYA EXIM

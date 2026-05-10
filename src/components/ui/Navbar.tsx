@@ -37,7 +37,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-3 cursor-pointer">
             <div className="relative w-12 h-12 bg-white rounded-lg overflow-hidden flex items-center justify-center p-1">
-              <img src="/api/logo" alt="Varnaya EXIM Logo" className="object-contain w-full h-full" />
+              <Image src="/logo.png" alt="Varnaya EXIM Logo" fill className="object-contain" />
             </div>
             <div className="flex flex-col">
               <span className="font-heading font-bold text-xl leading-tight text-white tracking-wide">
