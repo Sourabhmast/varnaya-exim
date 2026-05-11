@@ -70,16 +70,37 @@ export default function Contact() {
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="h-full min-h-[400px] glass-card rounded-3xl overflow-hidden relative group"
+            className="h-full min-h-[400px] glass-card rounded-3xl overflow-hidden relative group border border-white/10"
           >
-             {/* Using a static map image or abstract representation for MVP */}
-             <div className="absolute inset-0 bg-[url('https://maps.googleapis.com/maps/api/staticmap?center=Gokak,Karnataka&zoom=10&size=600x400&style=feature:all|element:labels.text.fill|color:0xffffff&style=feature:all|element:labels.text.stroke|color:0x000000&style=feature:landscape|color:0x05142d&style=feature:water|color:0x0d2e5e&style=feature:road|color:0xc79a42&key=YOUR_API_KEY')] bg-cover bg-center" />
-             <div className="absolute inset-0 bg-primary/50 group-hover:bg-primary/30 transition-colors duration-500 flex items-center justify-center">
-                <div className="text-center p-6 glass rounded-2xl backdrop-blur-md">
+             <iframe
+               title="Varnaya EXIM Headquarters Location"
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30672.435777418967!2d74.8085449!3d16.1706846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf14197365f543%3A0x7d06689d0092c733!2sGokak%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1715425624731!5m2!1sen!2sin"
+               width="100%"
+               height="100%"
+               style={{ 
+                 border: 0, 
+                 filter: 'invert(90%) hue-rotate(180deg) brightness(0.8) contrast(0.9) grayscale(0.5)' 
+               }}
+               allowFullScreen
+               loading="lazy"
+               className="absolute inset-0 w-full h-full opacity-60 group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-700"
+             ></iframe>
+             
+             {/* Gradient Overlay to blend with UI */}
+             <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-primary/40 pointer-events-none" />
+
+             <div className="absolute inset-0 flex items-center justify-center pointer-events-none group-hover:opacity-0 transition-opacity duration-500">
+                <div className="text-center p-6 glass rounded-2xl backdrop-blur-md border border-white/20">
                    <MapPin className="w-10 h-10 text-gold mx-auto mb-2 animate-bounce" />
                    <h3 className="text-white font-bold text-xl">Varnaya EXIM HQ</h3>
-                   <p className="text-gold">Gokak, Karnataka</p>
+                   <p className="text-gold font-medium">Gokak, Karnataka</p>
                 </div>
+             </div>
+             
+             <div className="absolute bottom-4 right-4 z-10 pointer-events-none">
+                <span className="glass px-3 py-1 rounded-full text-[10px] text-white/50 uppercase tracking-widest">
+                   Interactive Map
+                </span>
              </div>
           </motion.div>
         </div>
