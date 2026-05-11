@@ -86,16 +86,8 @@ export default function Contact() {
                className="absolute inset-0 w-full h-full opacity-60 group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-700"
              ></iframe>
              
-             {/* Gradient Overlay to blend with UI */}
-             <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-primary/40 pointer-events-none" />
-
-             <div className="absolute inset-0 flex items-center justify-center pointer-events-none group-hover:opacity-0 transition-opacity duration-500">
-                <div className="text-center p-6 glass rounded-2xl backdrop-blur-md border border-white/20">
-                   <MapPin className="w-10 h-10 text-gold mx-auto mb-2 animate-bounce" />
-                   <h3 className="text-white font-bold text-xl">Varnaya EXIM HQ</h3>
-                   <p className="text-gold font-medium">Gokak, Karnataka</p>
-                </div>
-             </div>
+             {/* Gradient Overlay for subtle branding */}
+             <div className="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent pointer-events-none" />
              
              <div className="absolute bottom-4 right-4 z-10 pointer-events-none">
                 <span className="glass px-3 py-1 rounded-full text-[10px] text-white/50 uppercase tracking-widest">
