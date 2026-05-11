@@ -2,7 +2,12 @@
 
 import { motion } from "framer-motion";
 import Button from "@/components/ui/Button";
-import Globe from "@/components/3d/Globe";
+import dynamic from "next/dynamic";
+
+const Globe = dynamic(() => import("@/components/3d/Globe"), {
+  ssr: false,
+  loading: () => <div className="absolute inset-0 bg-primary" />
+});
 
 export default function Hero() {
   return (

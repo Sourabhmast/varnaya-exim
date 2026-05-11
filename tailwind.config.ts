@@ -14,9 +14,9 @@ const config: Config = {
           foreground: "#FFFFFF",
         },
         gold: {
-          DEFAULT: "#C79A42",
-          light: "#d4af37",
-          dark: "#a67b27",
+          DEFAULT: "#D4AF37", // Brighter base gold
+          light: "#F9D783",   // High contrast gold for text
+          dark: "#B8860B",
         },
         ivory: "#FFFFF0",
         gray: {

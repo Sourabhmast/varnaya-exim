@@ -52,7 +52,7 @@ export default function Contact() {
                   {item.icon}
                 </div>
                 <div>
-                  <h4 className="text-sm font-semibold text-gray-warm uppercase tracking-wider mb-1">{item.title}</h4>
+                  <h3 className="text-sm font-semibold text-gray-warm uppercase tracking-wider mb-1">{item.title}</h3>
                   {item.href ? (
                     <a href={item.href} target="_blank" rel="noreferrer" className="text-white hover:text-gold transition-colors text-lg font-medium">
                       {item.detail}

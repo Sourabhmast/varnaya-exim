@@ -42,8 +42,9 @@ export default function RFQ() {
           <form className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <label className="block text-sm font-medium text-gray-warm mb-2">Full Name</label>
+                <label htmlFor="rfq-name" className="block text-sm font-medium text-gray-warm mb-2">Full Name</label>
                 <input 
+                  id="rfq-name"
                   type="text" 
                   name="name"
                   value={formData.name}
@@ -53,8 +54,9 @@ export default function RFQ() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-warm mb-2">Company Name</label>
+                <label htmlFor="rfq-company" className="block text-sm font-medium text-gray-warm mb-2">Company Name</label>
                 <input 
+                  id="rfq-company"
                   type="text" 
                   name="company"
                   value={formData.company}
@@ -67,8 +69,9 @@ export default function RFQ() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <label className="block text-sm font-medium text-gray-warm mb-2">Email Address</label>
+                <label htmlFor="rfq-email" className="block text-sm font-medium text-gray-warm mb-2">Email Address</label>
                 <input 
+                  id="rfq-email"
                   type="email" 
                   name="email"
                   value={formData.email}
@@ -78,8 +81,9 @@ export default function RFQ() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-warm mb-2">Phone Number</label>
+                <label htmlFor="rfq-phone" className="block text-sm font-medium text-gray-warm mb-2">Phone Number</label>
                 <input 
+                  id="rfq-phone"
                   type="tel" 
                   name="phone"
                   value={formData.phone}
@@ -91,8 +95,9 @@ export default function RFQ() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-warm mb-2">Product Interested In</label>
+              <label htmlFor="rfq-product" className="block text-sm font-medium text-gray-warm mb-2">Product Interested In</label>
               <select 
+                id="rfq-product"
                 name="product"
                 value={formData.product}
                 onChange={handleChange}
@@ -107,8 +112,9 @@ export default function RFQ() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-warm mb-2">Message & Quantity Requirements</label>
+              <label htmlFor="rfq-message" className="block text-sm font-medium text-gray-warm mb-2">Message & Quantity Requirements</label>
               <textarea 
+                id="rfq-message"
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
