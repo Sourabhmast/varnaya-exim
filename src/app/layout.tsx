@@ -42,6 +42,46 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.variable} ${playfair.variable} font-sans bg-primary text-white antialiased`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  "@id": "https://varnayaexim.com/#organization",
+                  "name": "Varnaya EXIM",
+                  "url": "https://varnayaexim.com",
+                  "logo": "https://varnayaexim.com/logo.png",
+                  "sameAs": ["https://www.linkedin.com/company/varnaya-exim"],
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+91-7483540440",
+                    "contactType": "customer service",
+                    "email": "varnayaexim@gmail.com"
+                  }
+                },
+                {
+                  "@type": "LocalBusiness",
+                  "@id": "https://varnayaexim.com/#localbusiness",
+                  "name": "Varnaya EXIM",
+                  "url": "https://varnayaexim.com",
+                  "image": "https://varnayaexim.com/logo.png",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Gokak",
+                    "addressLocality": "Belagavi District",
+                    "addressRegion": "Karnataka",
+                    "postalCode": "591307",
+                    "addressCountry": "IN"
+                  },
+                  "telephone": "+917483540440"
+                }
+              ]
+            })
+          }}
+        />
         <Navbar />
         <main>{children}</main>
         <Footer />

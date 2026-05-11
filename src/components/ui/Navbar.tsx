@@ -70,6 +70,7 @@ export default function Navbar() {
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="text-white focus:outline-none"
+              aria-label="Toggle Menu"
             >
               {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
             </button>

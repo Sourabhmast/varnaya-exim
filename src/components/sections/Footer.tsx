@@ -24,13 +24,13 @@ export default function Footer() {
               Born golden. Traded global. Premium Turmeric and agricultural commodities exported worldwide from the heartland of Karnataka.
             </p>
             <div className="flex gap-4">
-              <a href="https://www.linkedin.com/company/varnaya-exim" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full glass flex items-center justify-center text-white hover:text-gold hover:border-gold transition-colors">
+              <a href="https://www.linkedin.com/company/varnaya-exim" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="w-10 h-10 rounded-full glass flex items-center justify-center text-white hover:text-gold hover:border-gold transition-colors">
                 <Linkedin size={18} />
               </a>
-              <a href="mailto:varnayaexim@gmail.com" className="w-10 h-10 rounded-full glass flex items-center justify-center text-white hover:text-gold hover:border-gold transition-colors">
+              <a href="mailto:varnayaexim@gmail.com" aria-label="Email" className="w-10 h-10 rounded-full glass flex items-center justify-center text-white hover:text-gold hover:border-gold transition-colors">
                 <Mail size={18} />
               </a>
-              <a href="https://wa.me/917483540440" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full glass flex items-center justify-center text-white hover:text-gold hover:border-gold transition-colors">
+              <a href="https://wa.me/917483540440" target="_blank" rel="noreferrer" aria-label="Phone / WhatsApp" className="w-10 h-10 rounded-full glass flex items-center justify-center text-white hover:text-gold hover:border-gold transition-colors">
                 <Phone size={18} />
               </a>
             </div>
