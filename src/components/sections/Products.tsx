@@ -9,7 +9,7 @@ const products = [
   {
     name: "Premium Turmeric Powder",
     tag: "Flagship",
-    features: ["High Curcumin Content", "Export Grade", "Natural Aroma"],
+    features: ["High Curcumin Percentage (5-7%)", "Export Grade", "Natural Aroma"],
     color: "from-yellow-400 to-yellow-600",
     image: "/products/turmeric.png",
   },

@@ -25,7 +25,7 @@ export default function GlobalReach() {
               <div className="absolute inset-0 bg-gold rounded-full animate-ping opacity-75" />
             </motion.div>
             <h3 className="text-xl font-bold text-white mb-2">Origin: Karnataka, India</h3>
-            <p className="text-sm text-gold">Targeting Global Markets</p>
+            <p className="text-sm text-gold">Targeting Global Markets: USA, UAE, Europe, & SE Asia</p>
           </div>
 
           {/* Animated Trade Flow Lines (Abstract representation) */}

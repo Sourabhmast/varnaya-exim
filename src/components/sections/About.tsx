@@ -28,7 +28,7 @@ export default function About() {
           <div>
             <SectionHeading title="Rooted in Tradition, Built for the World" align="left" subtitle="ABOUT VARNAYA EXIM">
               <p className="mb-6">
-                Established in 2026 and based in Gokak, Karnataka, Varnaya EXIM bridges the gap between premium Indian agriculture and global demand. We specialize in exporting the finest Turmeric Powder and are rapidly expanding into diverse agricultural commodities.
+                Established in 2026 and based in Gokak, Varnaya EXIM is a premier <strong>Karnataka turmeric exporter</strong> bridging the gap between premium Indian agriculture and global demand. We specialize in exporting the finest Turmeric Powder and are rapidly expanding into diverse agricultural commodities.
               </p>
               <p>
                 Our mission is to deliver world-class export excellence while empowering local communities and maintaining ethical, sustainable sourcing practices.
