@@ -10,8 +10,13 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata: Metadata = {
-  title: "Varnaya EXIM | Premium Export Import Company",
-  description: "Born golden. Traded global. Premium Turmeric, Spices, and Agricultural Commodities exported worldwide from Karnataka, India.",
+  title: "Varnaya Exim | Premium Turmeric Exporters from India",
+  description: "Varnaya Exim exports premium turmeric powder and spices from Karnataka, India to global buyers.",
+  keywords: ["turmeric exporters india", "turmeric powder export", "spices exporter", "Karnataka turmeric"],
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
