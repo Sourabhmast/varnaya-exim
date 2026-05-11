@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/ui/Navbar";
 import Footer from "@/components/sections/Footer";
 import WhatsAppWidget from "@/components/ui/WhatsAppWidget";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
@@ -25,6 +26,7 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <WhatsAppWidget />
+        <Analytics />
       </body>
     </html>
   );
