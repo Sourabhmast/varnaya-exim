@@ -12,7 +12,22 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 export const metadata: Metadata = {
   title: "Varnaya Exim | Premium Turmeric Exporters from India",
   description: "Varnaya Exim exports premium turmeric powder and spices from Karnataka, India to global buyers.",
-  keywords: ["turmeric exporters india", "turmeric powder export", "spices exporter", "Karnataka turmeric"],
+  keywords: [
+    "turmeric exporters india", 
+    "turmeric powder export", 
+    "spices exporter", 
+    "Karnataka turmeric",
+    "premium agricultural commodities",
+    "B2B agriculture export India",
+    "export import company Karnataka",
+    "wholesale turmeric powder",
+    "fresh ginger exporters",
+    "Indian spices wholesale",
+    "global food commodities",
+    "jaggery exporters India",
+    "pulses export Karnataka",
+    "Varnaya EXIM"
+  ],
   robots: {
     index: true,
     follow: true,
