@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://varnayaexim.com/sitemap.xml
+Sitemap: https://varnaya-exim.vercel.app/sitemap.xml

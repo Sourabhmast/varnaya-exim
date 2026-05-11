@@ -50,10 +50,10 @@ export default function RootLayout({
               "@graph": [
                 {
                   "@type": "Organization",
-                  "@id": "https://varnayaexim.com/#organization",
+                  "@id": "https://varnaya-exim.vercel.app/#organization",
                   "name": "Varnaya EXIM",
-                  "url": "https://varnayaexim.com",
-                  "logo": "https://varnayaexim.com/logo.png",
+                  "url": "https://varnaya-exim.vercel.app",
+                  "logo": "https://varnaya-exim.vercel.app/logo.png",
                   "sameAs": ["https://www.linkedin.com/company/varnaya-exim"],
                   "contactPoint": {
                     "@type": "ContactPoint",
@@ -64,10 +64,10 @@ export default function RootLayout({
                 },
                 {
                   "@type": "LocalBusiness",
-                  "@id": "https://varnayaexim.com/#localbusiness",
+                  "@id": "https://varnaya-exim.vercel.app/#localbusiness",
                   "name": "Varnaya EXIM",
-                  "url": "https://varnayaexim.com",
-                  "image": "https://varnayaexim.com/logo.png",
+                  "url": "https://varnaya-exim.vercel.app",
+                  "image": "https://varnaya-exim.vercel.app/logo.png",
                   "address": {
                     "@type": "PostalAddress",
                     "streetAddress": "Gokak",
